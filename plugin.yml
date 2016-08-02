@@ -1,0 +1,19 @@
+softdepend: [HolographicDisplays,ProtocolLib]
+main: com.ketchupcoke.holodisplaylimiter.Main
+name: HoloDisplayLimiter
+version: 1.7
+author: ketchupcoke
+description: Limits the view of holographic displays in a radius.
+commands:
+   hdl:
+      description: Brings up version info.
+   hdl help:
+      description: Shows the help page.
+   hdl create:
+      description: Creates a hologram at the specified location. Use "*" to separate lines.
+   hdl bringhere:
+      description: Teleports the specified hologram to your location.
+   hdl list:
+      description: Lists all created holograms.
+   hdl reload:
+      description: Reloads the config.
